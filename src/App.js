@@ -1,7 +1,9 @@
+import CakeContainer from "./components/CakeContainer";
+
 function App() {
   return (
     <div>
-      Hello
+      <CakeContainer />
     </div>
   );
 }
