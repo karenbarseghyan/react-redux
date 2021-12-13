@@ -16,7 +16,6 @@ function App() {
         <CakeIcecreamContainer />
       </div>
     </Provider>
-   
   );
 }
 
