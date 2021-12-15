@@ -11,9 +11,9 @@ function HooksIcecreamContainer(props) {
     return (
         <div>
             <h2>Num of Icecream === {numOfIcecream} </h2>
-            <h2>Num of Icecream === {numOfCakes} </h2>
+            <h2>Num of Cakes === {numOfCakes} </h2>
             <button onClick={() => dispatch(buyIcecream())}>Buy Icecream</button>
-            <button onClick={() => dispatch(buyCake())}>Buy Icecream</button>
+            <button onClick={() => dispatch(buyCake())}>Buy Cake</button>
         </div>
     )
 }
